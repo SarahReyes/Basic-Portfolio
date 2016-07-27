@@ -1,5 +1,4 @@
 
-
 #namebox {
   width: 20%;
   height: 80px;
@@ -125,6 +124,7 @@ p {
   color: white;
   font-size: 12px;
   text-align: center;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 #copyright h3 {
   padding-top: 30px;
@@ -226,19 +226,18 @@ textarea{
   padding: 0px;
   margin: 30px;
 }
-#genericpic1 {
-  height: 200px;
-  width: auto;
-  background-size: contain;
-  float: left;
-  padding-right: 28px;
-  margin-left: 15px;
+.maincontentpic1 {
+  height: 500px;
+  width: 500px;
+  background: url("../images/genericpic1.jpg") top left no-repeat;
 }
-#genericpic2 {
-  height: 200px;
+.bluebox1 {
+  height: 75px;
   width: auto;
-  background-size: contain;
-}
+  background-color: #4aaaa5;
+  color: white;
+  text-align: center;
 
+}
 
 
