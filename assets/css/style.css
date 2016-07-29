@@ -30,6 +30,10 @@
 #headerlinks ul {
   padding: 0;
 }
+a {
+  text-decoration: none;
+  color: #777777;
+}
 #about {
   border-right: 1px solid #777777;
 }
@@ -195,6 +199,9 @@ textarea{
   border: 1px solid #777777;
   border-radius: 1px;
   font-size: 18px;
+}
+placeholder {
+  font-family: 'Josefin Sans', sans-serif;
 }
 #name {
   height: 30px;
