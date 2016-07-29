@@ -34,12 +34,19 @@ a {
   text-decoration: none;
   color: #777777;
 }
+a:hover {
+  color: #4aaaa5;
+}
+a:active {
+    color: #B369BF;
+}
 #about {
   border-right: 1px solid #777777;
 }
 #portfolio {
   border-right: 1px solid #777777;
 }
+
 
 
 
@@ -200,8 +207,8 @@ textarea{
   border-radius: 1px;
   font-size: 18px;
 }
-placeholder {
-  font-family: 'Josefin Sans', sans-serif;
+::-webkit-input-placeholder {
+   font-family: 'Josefin Sans', sans-serif;
 }
 #name {
   height: 30px;
